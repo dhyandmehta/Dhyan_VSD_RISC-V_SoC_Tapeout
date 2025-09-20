@@ -29,52 +29,6 @@ Week 0 was all about preparing the development environment. I successfully insta
 
 ---
 
-### ✅ Installation Process
-
-#### **Step 1**: Install Dependencies
-We started by updating our system and ensuring that all necessary libraries and tools were available.
-
-```bash
-sudo apt update
-sudo apt install build-essential dkms linux-headers-$(uname -r)
-````
-
-#### **Step 2**: Installing Yosys
-
-Yosys is a versatile synthesis tool that converts RTL designs to gate-level netlists. Here’s how I installed it:
-
-```bash
-git clone https://github.com/YosysHQ/yosys.git
-cd yosys
-sudo apt install make               # Install make if not present
-sudo apt-get install build-essential clang bison flex \
-libreadline-dev gawk tcl-dev libffi-dev git \
-graphviz xdot pkg-config python3 libboost-system-dev \
-libboost-python-dev libboost-filesystem-dev zlib1g-dev
-make config-gcc
-git submodule update --init --recursive
-make
-sudo make install
-```
-
-#### **Step 3**: Installing Iverilog
-
-Iverilog is used to compile and simulate Verilog code. Installing it was as easy as running:
-
-```bash
-sudo apt-get install iverilog
-```
-
-#### **Step 4**: Installing GTKWave
-
-GTKWave is a waveform viewer for visualizing simulation outputs from Iverilog. To install it:
-
-```bash
-sudo apt install gtkwave
-```
-
----
-
 Stay tuned for detailed weekly updates, as I’ll be documenting every step of the way!
 
 
@@ -91,7 +45,7 @@ Each week, I will update this section with the progress made. Here’s a quick l
 
 ---
 
-Stay tuned for detailed weekly updates, as I’ll be documenting every step of the way!
+Wait! Let me update...
 
 ---
 
