@@ -42,6 +42,7 @@ $ git submodule update --init
 $ make
 $ sudo make install
 ```
+<img width="807" height="189" alt="yosys" src="https://github.com/user-attachments/assets/4e30528d-1b6b-4b33-8796-c6f77c0a6060" />
 
 ---
 
@@ -53,6 +54,7 @@ For installing Iverilog, use the following commands:
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
+<img width="813" height="687" alt="iverilog" src="https://github.com/user-attachments/assets/a7380bb8-06ab-4bf9-b7f4-a42805ac9c34" />
 
 ---
 
@@ -64,6 +66,7 @@ To install GTkwave, run:
 $ sudo apt-get update
 $ sudo apt install gtkwave
 ```
+<img width="452" height="84" alt="gtkwave" src="https://github.com/user-attachments/assets/ff508f3d-5fa7-41dd-8a57-9b8bdb83835c" />
 
 ---
 
