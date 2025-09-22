@@ -18,6 +18,8 @@ The Iverilog simulation flow is a simple yet effective process for digital desig
 
 - GTKWave opens the VCD file, and you can now visually inspect the **waveform** that represents the behavior of your design over time. It provides valuable insights into timing and signal values throughout the simulation.
 
+<img width="1361" height="758" alt="Screenshot from 2025-09-21 16-08-25" src="https://github.com/user-attachments/assets/58cf01db-0015-45e8-bcfa-0f08f20432bd" />
+
 ---
 
 ### Tools Used:
