@@ -42,10 +42,11 @@ After generating the netlist, you can open it in a text editor for inspection:
 ```bash
 !gvim good_mux_netlist.v
 ```
-
 ---
 
+<img width="1175" height="619" alt="Screenshot From 2025-09-24 12-14-06" src="https://github.com/user-attachments/assets/1b9f73b4-c4e7-4d5a-89f8-01e067510b53" />
 
+---
 ## 📁 Files Included
 
 * `good_mux_netlist.v` — This is the gate-level Verilog netlist generated after synthesis. It includes instances of standard cells (e.g., AND, OR, MUX gates) connected to form the MUX logic.
